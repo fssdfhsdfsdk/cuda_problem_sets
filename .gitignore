@@ -1,0 +1,45 @@
+# CUDA/C++ Build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.ptx
+*.cubin
+*.fatbin
+
+# CMake build directory
+build/
+cmake_build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# CUDA cache
+*.nvvp/
+*.cudafe*
+*.fatbin*
+*.ptx*
+*.cubin*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
